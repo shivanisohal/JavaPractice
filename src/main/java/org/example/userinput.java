@@ -1,7 +1,9 @@
 package org.example;
 
 public class userinput {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        //CLI OPTIONS
         String age = args[0];
         System.out.println(age);
          int age1= Integer.parseInt(age);
