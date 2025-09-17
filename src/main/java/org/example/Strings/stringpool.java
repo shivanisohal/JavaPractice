@@ -8,12 +8,13 @@ public class stringpool {
         System.out.println(name);
 
         String c = "hello";
-        c = c.concat("world");
-        System.out.println(c);
+        c.concat("world");
+        System.out.println("original="+c);
 
         String s1 = new String("Selenium");
         String s2 = "Selenium";
         System.out.println(s1 == s2);
+        System.out.println("Equals= "+s1.equals(s2));
         System.out.println(s2.charAt(3));
         System.out.println(s2.length());
         System.out.println(s2.contains("k"));
